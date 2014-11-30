@@ -8,7 +8,7 @@
  - login ctf
 
 
-The first thing done was to list the content of current dir. This revealed the precious flag, but as expected I couln't read it.  
+The first thing done was to list the content of current dir. This revealed the precious flag, but as expected I couldn't read it.  
 ```
 $ ls -la
 total 134
