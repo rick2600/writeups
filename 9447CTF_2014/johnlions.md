@@ -8,6 +8,8 @@
  - login ctf
 
 
+####Playing
+
 The first thing done was to list the content of current dir. This revealed the precious flag, but as expected I couldn't read it.  
 ```
 $ ls -la
