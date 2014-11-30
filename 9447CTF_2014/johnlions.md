@@ -1,7 +1,7 @@
 #9447 CTF - johnlions (writeup)
 
 
-####Description:
+####Description
 
  - johnlions (250pts)
  - telnet johnlions.9447.plumbing
@@ -30,7 +30,7 @@ $ cat flag
 cat: can't open flag
 ```
 
-The next thing done was to look for suid binaries and see if some of them can be used to 
+The next thing done was to look for suid binaries and check if some of them can be used to 
 escalate privileges.
 
 ```
@@ -47,7 +47,7 @@ $ find / -user root -perm -4000 -print
 ```
 
 
-The /usr/lib/atrun seemed an interesting vector, it runs jobs queued by 'at'. This was abused in the past to execute command as root. The attack is possible because the /usr/spool/at is writable by anyone. What is needed is to create a file in a specific format in this directory and wait to atrun execute it. We can create a link to a file owned by root and try to inject our commands there.
+The /usr/lib/atrun seemed an interesting vector, it runs jobs queued by 'at'. This was abused in the past to execute commands as root. The attack is possible because the /usr/spool/at is writable by anyone. What is needed is to create a file in a specific format in this directory and wait to atrun execute it. We can create a link to a file owned by root and try to inject our commands there.
 
 #### The attack
 
