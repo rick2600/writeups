@@ -5,6 +5,8 @@
 
  - matwiz (1 pts)
  - mathwhiz_c951d46fed68687ad93a84e702800b7a.quals.shallweplayaga.me 21249
+ - [Code to solve](https://github.com/rick2600/writeups/blob/master/defcon2015/defcon_matwiz.py)
+
 
 ####Playing
 
