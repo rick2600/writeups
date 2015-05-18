@@ -7,7 +7,7 @@
  - [Code to solve](https://github.com/rick2600/writeups/blob/master/defcon2015/defcon_catwestern.c)
 
 ####Playing
-The server sends a initial state for registers and some bytes, this bytes are opcodes for instructions. Setting the state for the registers, executing the instructions and send back the register values to the server we can get the flag.
+The server sends an initial state for registers and some bytes, this bytes are opcodes for instructions. Setting the state for the registers, executing the instructions and send back the register values to the server we can get the flag.
 
 ```
 nc catwestern_631d7907670909fc4df2defc13f2057c.quals.shallweplayaga.me 9999
