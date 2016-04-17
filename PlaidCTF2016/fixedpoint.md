@@ -1,9 +1,11 @@
-## Challenge Description
+# Floatpoint [Pwnable - 175]
+
+## Challenge description
 IEEE754 is useful when your values go from -inf to +inf, but really, fixed point is all you need. 
 But if you want, you could grab this too. 
 Running at fixedpoint.pwning.xxx:7777
 
-## Challenge Code
+## Challenge code
 ```C
 #include <stdlib.h>
 #include <sys/mman.h>
